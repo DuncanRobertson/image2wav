@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 #
 #  image2wav.py
 #
@@ -30,7 +30,8 @@ version = '0.2'
 # http://www.gnu.org/licenses/gpl
 # 
 
-import Image, wave, array, sys, struct
+from PIL import Image
+import wave, array, sys, struct
 
 #############################################################################
 #
